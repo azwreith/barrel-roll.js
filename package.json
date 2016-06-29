@@ -1,6 +1,6 @@
 {
   "name": "barrel-roll.js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Rotates your webpage 360 degrees!",
   "main": "dist/barrel-roll.js",
   "scripts": {
