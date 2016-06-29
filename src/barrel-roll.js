@@ -13,6 +13,9 @@ bRoller = function() {
 	s.setProperty("-o-transform", "rotate(360deg)");
 	s.setProperty("-o-transition-duration", "4s");
 	s.setProperty("-o-transition-property", "all");
+	s.setProperty("transform", "rotate(360deg)");
+	s.setProperty("transition-duration", "4s");
+	s.setProperty("transition-property", "all");
 
 	setTimeout(function() {
 		s.removeProperty("-moz-transform");
@@ -24,6 +27,9 @@ bRoller = function() {
 		s.removeProperty("-o-transform");
 		s.removeProperty("-o-transition-duration");
 		s.removeProperty("-o-transition-property");
+		s.removeProperty("transform");
+		s.removeProperty("transition-duration");
+		s.removeProperty("transition-property");
 		canHazRollin = true;
 	}, 4000);
 
