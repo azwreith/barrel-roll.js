@@ -3,9 +3,9 @@ var gulp = require('gulp'),
 	uglify = require('gulp-uglify');
 
 gulp.task('minify-js', function() {
-	return gulp.src('/src/barrel-roll.js')
-		.pipe(gulp.dest('/dist'))
+	return gulp.src('src/barrel-roll.js')
+		.pipe(gulp.dest('dist'))
 		.pipe(rename('barrel-roll-min.js'))
 		.pipe(uglify())
-		.pipe(gulp.dest('/dist'));
+		.pipe(gulp.dest('dist'));
 });
