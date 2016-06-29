@@ -27,6 +27,8 @@ or copy the javascript file from the `dist` folder.
   }
   ```
   
+  or,
+  
   ```html
   <button onclick="doBarrelRoll()">Click me</button>
   ```
