@@ -7,5 +7,5 @@ gulp.task('minify-js', function() {
 		.pipe(gulp.dest('/dist'))
 		.pipe(rename('barrel-roll-min.js'))
 		.pipe(uglify())
-		.pipe(gulp.dest('/dest'));
+		.pipe(gulp.dest('/dist'));
 });
