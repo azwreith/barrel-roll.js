@@ -1,0 +1,19 @@
+{
+  "name": "barrel-roll.js",
+  "version": "0.1.0",
+  "description": "Rotates your webpage 360 degrees!",
+  "main": "dist/barrel-roll.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarthUjj/barrel-roll.js.git"
+  },
+  "author": "Ujjwal Arora <arora.ujjwal@gmail.com> (http://ujjwalarora.xyz)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DarthUjj/barrel-roll.js/issues"
+  },
+  "homepage": "https://github.com/DarthUjj/barrel-roll.js#readme"
+}
