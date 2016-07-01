@@ -16,7 +16,7 @@ or simply copy the javascript file from the `dist` folder.
 
 ##Usage
 1. Include the javascript file in your document:
-
+ 
   ```html
   <script src="barrel-roll.js"></script>
   ```
@@ -29,9 +29,7 @@ or simply copy the javascript file from the `dist` folder.
     doBarrelRoll();
   }
   ```
-  
   Example 2:
-  
   ```html
   <button onclick="doBarrelRoll()">Click me</button>
   ```
