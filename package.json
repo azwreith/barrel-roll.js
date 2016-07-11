@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DarthUjj/barrel-roll.js.git"
+    "url": "git+https://github.com/azwreith/barrel-roll.js.git"
   },
   "author": "Ujjwal Arora <arora.ujjwal@gmail.com> (http://ujjwalarora.xyz)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DarthUjj/barrel-roll.js/issues"
+    "url": "https://github.com/azwreith/barrel-roll.js/issues"
   },
-  "homepage": "https://github.com/DarthUjj/barrel-roll.js#readme",
+  "homepage": "https://github.com/azwreith/barrel-roll.js#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-rename": "^1.2.2",
