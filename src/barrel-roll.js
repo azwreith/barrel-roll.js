@@ -1,19 +1,19 @@
 var canHazRollin = true;
 
-bRoller = function() {
-
+function rotate (angle) {
+	//angle = Math.min(Math.max(angle, -360), 360); // Use this to constrain rotates to a maximum of 1 rotation.
 	var s = document.body.style;
 
-	s.setProperty("-moz-transform", "rotate(360deg)");
+	s.setProperty("-moz-transform", "rotate(" + angle + "deg)");
 	s.setProperty("-moz-transition-duration", "4s");
 	s.setProperty("-moz-transition-property", "all");
-	s.setProperty("-webkit-transform", "rotate(360deg)");
+	s.setProperty("-webkit-transform", "rotate(" + angle + "deg)");
 	s.setProperty("-webkit-transition-duration", "4s");
 	s.setProperty("-webkit-transition-property", "all");
-	s.setProperty("-o-transform", "rotate(360deg)");
+	s.setProperty("-o-transform", "rotate(" + angle + "deg)");
 	s.setProperty("-o-transition-duration", "4s");
 	s.setProperty("-o-transition-property", "all");
-	s.setProperty("transform", "rotate(360deg)");
+	s.setProperty("transform", "rotate(" + angle + "deg)");
 	s.setProperty("transition-duration", "4s");
 	s.setProperty("transition-property", "all");
 
@@ -32,12 +32,18 @@ bRoller = function() {
 		s.removeProperty("transition-property");
 		canHazRollin = true;
 	}, 4000);
+}
 
-};
-
-doBarrelRoll = function() {
+function doBarrelRoll () {
 	if(canHazRollin) {
 		canHazRollin = false;
-		bRoller();
+		rotate(360);
 	}
-};
+}
+
+function doAntiBarrelRoll () {
+	if(canHazRollin) {
+		canHazRollin = false;
+		rotate(-360);
+	}
+}
